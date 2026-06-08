@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3e2723, #6f4e37, #c7a17a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.18);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #fff3e0;
+    margin-bottom: 25px;
+}
+
+.coffee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coffee-card {
+    background: white;
+    width: 220px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.coffee-card:hover {
+    transform: translateY(-7px);
+}
+
+.coffee-card h2 {
+    color: #4b2e2e;
+}
+
+.coffee-card p {
+    color: #6f4e37;
+    font-size: 18px;
+}
+
+.coffee-card span {
+    font-weight: bold;
+}
+
+button {
+    background: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3e2723;
+}
